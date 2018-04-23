@@ -26,6 +26,7 @@ Things will be compiled to the `build` folder.
 
 filipekiss/2018 — [MIT]
 
+[WebpackManifestPlugin]: https://github.com/danethurber/webpack-manifest-plugin
 [prettier]: https://prettier.io/
 [webpack 4]: https://webpack.js.org/
 [sass]: https://sass-lang.com/
