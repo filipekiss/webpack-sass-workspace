@@ -22,7 +22,8 @@
             "concurrently -p \"[{name}]\" -n \"scripts,styles \" -c \"bgBlue.bold,bgMagenta.bold\" \"yarn run scripts:watch\" \"yarn run styles:watch\"",
         "styles:watch":
             "node-sass --watch src/styles --output dist/styles --source-comments --recursive",
-        "scripts:watch": "webpack --mode development --watch"
+        "scripts:watch": "webpack --mode development --watch",
+        "lint": "xo --fix"
     },
     "xo": {
         "prettier": true
